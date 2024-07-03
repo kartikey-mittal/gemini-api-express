@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000; // Use environment port or default to 300
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-// Endpoint to handle Gemini API requests
+// Endpoint to handle Gemini API requestsqwe
 app.post('/api/gemini', async (req, res) => {
     try {
         const { searchQuery } = req.body;
