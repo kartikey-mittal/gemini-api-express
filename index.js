@@ -2,7 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const fetch = require('node-fetch'); // For making HTTP requests
+
 
 const app = express();
 const PORT = process.env.PORT || 3000; // Use environment port or default to 3000
