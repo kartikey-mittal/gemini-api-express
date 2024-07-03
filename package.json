@@ -1,15 +1,15 @@
 {
   "name": "gemini-api-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express server for Gemini API integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "echo 'No build step required for Express server'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.1"
   }
 }
